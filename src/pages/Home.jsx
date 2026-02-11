@@ -40,7 +40,7 @@ const Home = () => {
                         transition={{ duration: 1, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
                     >
                         <h1 className="text-6xl md:text-8xl lg:text-[7rem] font-bold text-white tracking-widest mb-8 drop-shadow-2xl">
-                            <span className="font-galline tracking-wider">EVAN</span>
+                            <span className="font-sans font-bold tracking-wider">EVAN</span>
                             <br />
                             <span className="font-sans text-white drop-shadow-[0_0_15px_rgba(48,207,208,0.3)]">
                                 KHOUJA

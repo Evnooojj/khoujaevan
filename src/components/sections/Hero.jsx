@@ -42,7 +42,7 @@ const Hero = () => {
                     transition={{ duration: 1, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
                 >
                     <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold text-white tracking-widest mb-6 mix-blend-difference">
-                        <span className="font-galline tracking-wider">EVAN</span>
+                        <span className="font-sans font-bold tracking-wider">EVAN</span>
                         <br />
                         <span className="font-display text-transparent bg-clip-text bg-gradient-to-r from-primary-turquoise to-primary-pastel">
                             KHOUJA

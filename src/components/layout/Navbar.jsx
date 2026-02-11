@@ -40,7 +40,7 @@ const Navbar = () => {
                         textColorClass
                     )}
                 >
-                    <span className="font-galline tracking-widest mr-2">EVAN</span>
+                    <span className="font-sans font-bold tracking-widest mr-2">EVAN</span>
                     <span className="font-display">KHOUJA</span>
                 </Link>
 
