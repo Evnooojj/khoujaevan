@@ -45,14 +45,19 @@ git remote add origin https://github.com/Evnooojj/khoujaevan.git
 git push -u origin main
 ```
 3.  Sur Cloudflare Pages, connectez votre compte GitHub et sélectionnez le repo.
-    - **Build command**: `npm run build`
     - **Output directory**: `dist`
 
-## 🛠️ Maintenance
+4.  **Important**: Si Cloudflare vous demande une "Deploy command" (Production ou Non-production), **LAISSEZ VIDE** ou supprimez tout texte. Le déploiement est automatique pour les sites statiques.
 
-- **Images** : Ajoutez vos photos dans `public/images/` et lancez `node scripts/optimize-images-v2.js` pour mettre à jour la galerie.
-- **CV** : Remplacez le fichier PDF à la racine et mettez à jour le lien dans `src/pages/CV.jsx`.
+## 🛠️ Maintenance & Mises à jour
 
-## 📄 Licence
+### Ajouter des photos
+1.  Ajoutez vos fichiers originaux dans le dossier `Images/` (dans `Portrait`, `Automobile` ou `Architecture`).
+2.  Double-cliquez sur `update_gallery.bat`.
+3.  C'est tout ! Le script optimise les images et met à jour le site.
 
-Evan KHOUJA - Tous droits réservés.
+### Mettre à jour le CV
+1.  Remplacez le fichier PDF à la racine du projet.
+2.  Mettez à jour le nom du fichier dans `src/pages/CV.jsx` (si le nom a changé).
+3.  Double-cliquez sur `setup_deployment.bat` ou lancez les commandes git pour envoyer les changements.
+

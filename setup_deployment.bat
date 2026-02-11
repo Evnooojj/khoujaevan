@@ -2,6 +2,9 @@
 echo Initializing Git repository...
 git init
 
+echo Nettoyage des fichiers volumineux...
+del /s /q "public\images\*.jpg" "public\images\*.jpeg" "public\images\*.png" >nul 2>&1
+
 echo Adding files...
 git add .
 
