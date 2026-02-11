@@ -3,7 +3,7 @@ call node scripts/optimize-images-v2.js
 
 echo.
 echo 2. Nettoyage des fichiers volumineux (JPEGs originaux)...
-del /s /q "public\images\*.jpg" "public\images\*.jpeg" "public\images\*.png" >nul 2>&1
+call node scripts/clean-public-images.js
 echo Nettoyage termine.
 
 echo.
