@@ -35,7 +35,7 @@ const LandoBackground = () => {
             */}
 
             {/* GOOEY FILTER CONTAINER */}
-            <div className="absolute inset-0 w-full h-full filter blur-[60px] contrast-[120%] opacity-90">
+            <div className="absolute inset-0 w-full h-full filter blur-[30px] md:blur-[60px] contrast-[120%] opacity-90 transition-all duration-700 will-change-transform">
 
                 {/* 
                    Multiple Blobs with FASTER motion
