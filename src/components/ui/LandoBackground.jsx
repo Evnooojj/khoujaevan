@@ -54,12 +54,6 @@ const LandoBackground = () => {
                 {/* Bottom Right */}
                 <motion.div variants={blob4} animate="animate" className="absolute bottom-[-15%] right-[10%] w-[50vw] h-[50vw] rounded-full mix-blend-multiply opacity-80" style={{ backgroundColor: colorTurquoise }} />
 
-                {/* Center Floater 1 */}
-                <motion.div variants={blob5} animate="animate" className="absolute top-[30%] left-[20%] w-[35vw] h-[35vw] rounded-full mix-blend-multiply opacity-70" style={{ backgroundColor: colorTurquoise }} />
-
-                {/* Center Floater 2 */}
-                <motion.div variants={blob6} animate="animate" className="absolute top-[40%] right-[30%] w-[40vw] h-[40vw] rounded-full mix-blend-multiply opacity-70" style={{ backgroundColor: colorTurquoise }} />
-
             </div>
 
             {/* GRAIN REMOVED as requested */}

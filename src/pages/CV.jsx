@@ -106,7 +106,7 @@ const CV = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className="bg-white/5 backdrop-blur-md rounded-2xl p-8 border border-white/10 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1"
+                            className="bg-black/40 backdrop-blur-md rounded-2xl p-8 border border-white/10 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1"
                         >
                             <h3 className="text-xl font-bold mb-6 text-primary-cyan">
                                 {skillGroup.category}
@@ -120,7 +120,7 @@ const CV = () => {
                                                 {item.level}
                                             </span>
                                         </div>
-                                        <p className="text-sm text-gray-200 font-medium">
+                                        <p className="text-sm text-white font-medium">
                                             {item.details}
                                         </p>
                                     </div>
@@ -141,7 +141,7 @@ const CV = () => {
                                 whileInView={{ opacity: 1, x: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                                className="bg-white/5 backdrop-blur-md rounded-xl p-8 shadow-lg border border-white/10 flex flex-col md:flex-row gap-6 hover:bg-white/10 transition-colors"
+                                className="bg-black/40 backdrop-blur-md rounded-xl p-8 shadow-lg border border-white/10 flex flex-col md:flex-row gap-6 hover:bg-black/50 transition-colors"
                             >
                                 <div className="md:w-1/4">
                                     <span className="inline-block px-3 py-1 text-sm font-bold text-primary-teal bg-primary-teal/10 rounded-full">
@@ -150,7 +150,7 @@ const CV = () => {
                                 </div>
                                 <div className="md:w-3/4">
                                     <h4 className="text-xl font-bold mb-4 text-white">{exp.title}</h4>
-                                    <ul className="space-y-2 list-disc list-inside text-gray-200 font-medium">
+                                    <ul className="space-y-2 list-disc list-inside text-white font-medium">
                                         {exp.details.map((detail, i) => (
                                             <li key={i} className="leading-relaxed">{detail}</li>
                                         ))}
@@ -171,19 +171,19 @@ const CV = () => {
                     <h3 className="text-3xl font-display font-bold text-center mb-12 text-white">Formation</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                         {/* BUT MMI */}
-                        <div className="bg-white/5 backdrop-blur-md rounded-xl p-6 shadow-lg border-l-4 border-primary-cyan border-t border-r border-b border-white/10 hover:bg-white/10 transition-colors">
+                        <div className="bg-black/40 backdrop-blur-md rounded-xl p-6 shadow-lg border-l-4 border-primary-cyan border-t border-r border-b border-white/10 hover:bg-black/50 transition-colors">
                             <h4 className="text-lg font-bold text-white">BUT Métiers du Multimédia et de l'Internet (MMI)</h4>
-                            <p className="text-gray-200 font-medium">IUT de Blois • 2025 - Présent</p>
-                            <p className="text-sm text-gray-300 mt-2">
+                            <p className="text-white font-medium">IUT de Blois • 2025 - Présent</p>
+                            <p className="text-sm text-gray-200 mt-2">
                                 Formation pluridisciplinaire : Développement web, Design graphique, Communication, Audiovisuel.
                             </p>
                         </div>
 
                         {/* Lycée */}
-                        <div className="bg-white/5 backdrop-blur-md rounded-xl p-6 shadow-lg border-l-4 border-gray-400 border-t border-r border-b border-white/10 hover:bg-white/10 transition-colors">
+                        <div className="bg-black/40 backdrop-blur-md rounded-xl p-6 shadow-lg border-l-4 border-gray-400 border-t border-r border-b border-white/10 hover:bg-black/50 transition-colors">
                             <h4 className="text-lg font-bold text-white">Baccalauréat Mention Bien</h4>
-                            <p className="text-gray-200 font-medium">Lycée Touchard Washington • 2022 - 2025</p>
-                            <p className="text-sm text-gray-300 mt-2">
+                            <p className="text-white font-medium">Lycée Touchard Washington • 2022 - 2025</p>
+                            <p className="text-sm text-gray-200 mt-2">
                                 Enseignement général.
                             </p>
                         </div>

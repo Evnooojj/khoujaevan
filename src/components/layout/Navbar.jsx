@@ -51,14 +51,14 @@ const Navbar = () => {
                             key={item.name}
                             to={item.path}
                             className={clsx(
-                                'relative text-base font-medium transition-all duration-300 hover:text-primary-cyan group',
-                                location.pathname === item.path ? 'text-primary-cyan font-bold' : 'text-white'
+                                'relative text-base font-medium transition-all duration-300 hover:text-white group',
+                                location.pathname === item.path ? 'text-white font-bold' : 'text-white/80'
                             )}
                             data-cursor-hover
                         >
                             {item.name}
                             <span className={clsx(
-                                "absolute -bottom-1 left-0 w-0 h-0.5 bg-primary-cyan transition-all duration-300 group-hover:w-full",
+                                "absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full",
                                 location.pathname === item.path ? "w-full" : ""
                             )}></span>
                         </Link>
