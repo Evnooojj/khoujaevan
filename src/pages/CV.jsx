@@ -85,13 +85,13 @@ const CV = () => {
                     animate={{ opacity: 1, y: 0 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 uppercase text-white">
+                    <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 uppercase text-white drop-shadow-md">
                         Compétences & Expériences
                     </h2>
-                    <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+                    <p className="text-xl text-white font-medium max-w-3xl mx-auto drop-shadow-sm">
                         Recherche d'un contrat d'alternance en communication pour début Septembre 2026.
                         <br />
-                        <span className="text-base mt-2 block opacity-80">
+                        <span className="text-lg mt-2 block opacity-100">
                             Étudiant en BUT MMI et photographe, je combine maîtrise technique et aisance relationnelle.
                         </span>
                     </p>

@@ -42,16 +42,16 @@ const LandoBackground = () => {
                    Using the darker Turquoise (#07A3B2).
                 */}
 
-                {/* Top Left */}
+                {/* Top Left - Visible on Mobile */}
                 <motion.div variants={blob1} animate="animate" className="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] rounded-full mix-blend-multiply opacity-80" style={{ backgroundColor: colorTurquoise }} />
 
-                {/* Top Right */}
-                <motion.div variants={blob2} animate="animate" className="absolute top-[-5%] right-[-10%] w-[55vw] h-[55vw] rounded-full mix-blend-multiply opacity-80" style={{ backgroundColor: colorTurquoise }} />
+                {/* Top Right - Hidden on Mobile */}
+                <motion.div variants={blob2} animate="animate" className="hidden md:block absolute top-[-5%] right-[-10%] w-[55vw] h-[55vw] rounded-full mix-blend-multiply opacity-80" style={{ backgroundColor: colorTurquoise }} />
 
-                {/* Bottom Left */}
-                <motion.div variants={blob3} animate="animate" className="absolute bottom-[-10%] left-[-5%] w-[60vw] h-[60vw] rounded-full mix-blend-multiply opacity-80" style={{ backgroundColor: colorTurquoise }} />
+                {/* Bottom Left - Hidden on Mobile */}
+                <motion.div variants={blob3} animate="animate" className="hidden md:block absolute bottom-[-10%] left-[-5%] w-[60vw] h-[60vw] rounded-full mix-blend-multiply opacity-80" style={{ backgroundColor: colorTurquoise }} />
 
-                {/* Bottom Right */}
+                {/* Bottom Right - Visible on Mobile */}
                 <motion.div variants={blob4} animate="animate" className="absolute bottom-[-15%] right-[10%] w-[50vw] h-[50vw] rounded-full mix-blend-multiply opacity-80" style={{ backgroundColor: colorTurquoise }} />
 
             </div>
