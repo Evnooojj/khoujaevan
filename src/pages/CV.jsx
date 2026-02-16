@@ -30,20 +30,21 @@ const skills = [
 
 const experiences = [
     {
-        year: 'Stage 3ème',
-        title: 'Stagiaire Maintenance Informatique | Kasi Informatique',
+        year: '2025 - PRÉSENT',
+        title: 'PROJETS ET ACQUIS ACADÉMIQUES (SAÉ & RESSOURCES)',
         details: [
-            'Observation de la maintenance technique et accueil client.',
-            'Développement de l\'aisance sociale et apprentissage des codes professionnels.'
+            'Stratégie de Communication & Marketing : Analyse de cibles, audit de communication et rédaction de contenus stratégiques.',
+            'Création Numérique & Design : Apprentissage de la chaîne graphique et conception d\'identités visuelles sur la Suite Adobe.',
+            'Développement Web & Dispositifs Interactifs : Apprentissage des langages HTML5 et CSS3 pour la création de sites web responsives.',
+            'Culture Numérique & Audiovisuel : Étude des médias, écriture scénaristique et bases de la prise de vue et du montage.'
         ]
     },
     {
-        year: '2021 - Présent',
-        title: 'Bénévole Polyvalent | Evan Épicerie',
+        year: 'Depuis 2025',
+        title: 'Photographe (Projet Passion)',
         details: [
-            'Accueil et conseil client, gestion des stocks, encaissement.',
-            'Aide à la gestion quotidienne et polyvalence opérationnelle.',
-            'Compétences clés : Sens des responsabilités, autonomie, gestion de la relation client.'
+            'Prise de vue, retouche photo et gestion d\'un portfolio en ligne.',
+            'Développement d\'un univers visuel propre.'
         ]
     },
     {
@@ -56,21 +57,20 @@ const experiences = [
         ]
     },
     {
-        year: 'Depuis 2025',
-        title: 'Photographe (Projet Passion)',
+        year: '2021 - Présent',
+        title: 'Bénévole Polyvalent | Evan Épicerie',
         details: [
-            'Prise de vue, retouche photo et gestion d\'un portfolio en ligne.',
-            'Développement d\'un univers visuel propre.'
+            'Accueil et conseil client, gestion des stocks, encaissement.',
+            'Aide à la gestion quotidienne et polyvalence opérationnelle.',
+            'Compétences clés : Sens des responsabilités, autonomie, gestion de la relation client.'
         ]
     },
     {
-        year: '2025 - PRÉSENT',
-        title: 'PROJETS ET ACQUIS ACADÉMIQUES (SAÉ & RESSOURCES)',
+        year: 'Stage 3ème',
+        title: 'Stagiaire Maintenance Informatique | Kasi Informatique',
         details: [
-            'Stratégie de Communication & Marketing : Analyse de cibles, audit de communication et rédaction de contenus stratégiques.',
-            'Création Numérique & Design : Apprentissage de la chaîne graphique et conception d\'identités visuelles sur la Suite Adobe.',
-            'Développement Web & Dispositifs Interactifs : Apprentissage des langages HTML5 et CSS3 pour la création de sites web responsives.',
-            'Culture Numérique & Audiovisuel : Étude des médias, écriture scénaristique et bases de la prise de vue et du montage.'
+            'Observation de la maintenance technique et accueil client.',
+            'Développement de l\'aisance sociale et apprentissage des codes professionnels.'
         ]
     }
 ]
@@ -198,7 +198,7 @@ const CV = () => {
                     className="text-center mt-20"
                 >
                     <a
-                        href="/CV_KHOUJA_Evan_3.pdf"
+                        href="/CV_KHOUJA_Evan_Alternance.pdf?v=new"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-8 py-4 bg-transparent text-primary-cyan border-2 border-primary-cyan text-lg font-bold rounded-full transition-all duration-300 hover:bg-black hover:text-white hover:border-black hover:scale-105 hover:shadow-[0_0_20px_rgba(48,207,208,0.5)] group"

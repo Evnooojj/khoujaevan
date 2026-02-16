@@ -77,7 +77,7 @@ const CV = () => {
                     className="text-center mt-20"
                 >
                     <a
-                        href="/CV_KHOUJA_Evan.pdf"
+                        href="/CV_KHOUJA_Evan_Alternance.pdf?v=new"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-8 py-3 bg-black text-white rounded-full hover:bg-primary-turquoise transition-colors font-medium"
